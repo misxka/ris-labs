@@ -1,26 +1,26 @@
-package com.viaryha;
+package com.viaryha.lab1;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-public class Server implements Hello {
+public class Server implements Converter {
 
     public Server() {}
 
     @Override
-    public String sayHello() throws RemoteException {
-        return "Hello, World!";
+    public String replaceVowels(String str) throws RemoteException {
+        return str.replaceAll("[aeyuioAEYUIOауоиэыяюеёАУОИЭЫЯЮЕЁ]", "*");
     }
 
     public static void main(String[] args) {
         try {
             Server obj = new Server();
-            Hello stub = (Hello) UnicastRemoteObject.exportObject(obj, 0);
+            Converter stub = (Converter) UnicastRemoteObject.exportObject(obj, 0);
             Registry registry = LocateRegistry.createRegistry(1087);
-            registry.bind("Hello", stub);
-            System.out.println("Server ready");
+            registry.bind("Converter", stub);
+            System.out.println("Server is listening...");
         } catch (Exception e) {
             e.printStackTrace();
         }
