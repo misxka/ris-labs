@@ -2,6 +2,8 @@ package com.viaryha.servlet;
 
 import com.viaryha.ejb.ConverterLocal;
 import jakarta.ejb.EJB;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.PersistenceUnit;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
@@ -14,6 +16,9 @@ import java.math.BigDecimal;
 public class ConverterServlet extends HttpServlet {
     @EJB
     private ConverterLocal converter;
+
+    @PersistenceUnit
+    EntityManagerFactory emf;
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {
