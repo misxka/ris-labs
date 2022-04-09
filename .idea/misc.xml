@@ -3,12 +3,14 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/lab2" />
     <file type="web" url="file://$PROJECT_DIR$/lab3" />
+    <file type="web" url="file://$PROJECT_DIR$/lab4" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/lab2/pom.xml" />
         <option value="$PROJECT_DIR$/lab3/pom.xml" />
+        <option value="$PROJECT_DIR$/lab4-example/pom.xml" />
       </list>
     </option>
   </component>
