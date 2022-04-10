@@ -77,3 +77,21 @@ private static final String[] words = { "orange", "sin", "Nec", "lorem", "battle
 #### Получатель
 
 ![image](https://user-images.githubusercontent.com/57208499/162575201-54bbecd5-c0f5-4235-96e1-f7fc1a637a14.png)
+
+
+## Лабораторная работа №5 - Java Server Faces
+### Задание
+
+![image](https://user-images.githubusercontent.com/57208499/162612956-5b8483c0-0c9d-49b4-900a-ca0291e7b25b.png)
+
+### Результат работы
+
+![image](https://user-images.githubusercontent.com/57208499/162612965-a4d1833b-decd-44d5-b9fa-9344d582ae8e.png)
+
+![image](https://user-images.githubusercontent.com/57208499/162612977-ee511b2f-9a0a-45ec-96f7-872c95361d7e.png)
+
+![image](https://user-images.githubusercontent.com/57208499/162612984-51e01f4c-7f5d-44d2-8e3e-f217c5b9b311.png)
+
+![image](https://user-images.githubusercontent.com/57208499/162612992-14f97db9-dc2f-4bce-8c61-1e17dd01141a.png)
+
+![image](https://user-images.githubusercontent.com/57208499/162612996-31c6dcb3-36fd-4a30-9e77-0616a42ce6c8.png)
