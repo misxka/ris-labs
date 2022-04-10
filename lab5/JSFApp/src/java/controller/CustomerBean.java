@@ -104,7 +104,7 @@ public class CustomerBean implements Serializable {
         } catch(Exception e){  
             System.out.println(e);  
         }         
-        return "/edit.xhtml?faces-redirect=true";  
+        return "/customer/edit.xhtml?faces-redirect=true";  
     }
     
     public void delete(int id){  
@@ -152,8 +152,8 @@ public class CustomerBean implements Serializable {
             System.out.println(e);  
         }  
         if (result !=0)  
-            return "index.xhtml?faces-redirect=true";  
-        else return "create.xhtml?faces-redirect=true";  
+            return "/customer/index.xhtml?faces-redirect=true";  
+        else return "/customer/create.xhtml?faces-redirect=true";  
     }
     
     public String update(Customer c){
@@ -182,6 +182,6 @@ public class CustomerBean implements Serializable {
         } catch(Exception e){  
             System.out.println();  
         }  
-        return "/index.xhtml?faces-redirect=true";        
+        return "/customer/index.xhtml?faces-redirect=true";        
     }  
 }
