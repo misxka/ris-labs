@@ -119,3 +119,7 @@ private static final String[] words = { "orange", "sin", "Nec", "lorem", "battle
 ![image](https://user-images.githubusercontent.com/57208499/162800321-23358665-9733-4fc1-a96f-c56eaf322868.png)
 ![image](https://user-images.githubusercontent.com/57208499/162800470-2eb2c660-d58d-485c-821a-d9105e58c69c.png)
 ![image](https://user-images.githubusercontent.com/57208499/162800548-f5b0b839-5789-4935-bd20-5cc985d522ce.png)
+
+#### Содержимое файла
+
+![image](https://user-images.githubusercontent.com/57208499/162800795-1068e050-bb1f-48b6-b68b-99a7f0ce81f5.png)
