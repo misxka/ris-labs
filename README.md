@@ -95,3 +95,27 @@ private static final String[] words = { "orange", "sin", "Nec", "lorem", "battle
 ![image](https://user-images.githubusercontent.com/57208499/162612992-14f97db9-dc2f-4bce-8c61-1e17dd01141a.png)
 
 ![image](https://user-images.githubusercontent.com/57208499/162612996-31c6dcb3-36fd-4a30-9e77-0616a42ce6c8.png)
+
+
+## Лабораторная работа №6 - Web-сервисы. Разработка web-сервиса, реализующего RPC-ориентированное взаимодействие
+### Задание
+*Разработать web-сервис «фонотека», позволяющий проводить поиск по исполнителю или альбому.*
+
+### Результат
+
+1. Для корректной работы приложения необходима версия JDK 1.7 или более младшей версии.
+2. Для запуска/остановки сервера ввести `startup.bat` или `shutdown.bat` соответственно. 
+
+#### Результат взаимодействия
+
+![image](https://user-images.githubusercontent.com/57208499/162799591-44431716-b3b9-425f-b4bd-32f0f652d25f.png)
+
+#### Успешный запуск сервера
+
+![image](https://user-images.githubusercontent.com/57208499/162800117-1c17cb12-be13-4e0d-a1ae-d764d9e86205.png)
+
+#### Структура папки axis
+
+![image](https://user-images.githubusercontent.com/57208499/162800321-23358665-9733-4fc1-a96f-c56eaf322868.png)
+![image](https://user-images.githubusercontent.com/57208499/162800470-2eb2c660-d58d-485c-821a-d9105e58c69c.png)
+![image](https://user-images.githubusercontent.com/57208499/162800548-f5b0b839-5789-4935-bd20-5cc985d522ce.png)
