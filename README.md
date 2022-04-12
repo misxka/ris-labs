@@ -123,3 +123,11 @@ private static final String[] words = { "orange", "sin", "Nec", "lorem", "battle
 #### Содержимое файла
 
 ![image](https://user-images.githubusercontent.com/57208499/162800795-1068e050-bb1f-48b6-b68b-99a7f0ce81f5.png)
+
+
+## Лабораторная работа №7 - Spring Framework. SpringXML, Spring Annotation
+### Задание
+*Программа представляет приложение, реализованное на архитектуре Spring. Реализовать приложение решения квадратного уравнения.*
+
+### Результат
+![image](https://user-images.githubusercontent.com/57208499/163035236-ea3713c9-4bc6-406f-9a46-b0639c8b77da.png)
